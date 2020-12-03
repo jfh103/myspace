@@ -1,1 +1,8 @@
 hjf_8086@163.com
+hjf.dragon@gmail.com
+创建账号
+git config --global user.name "jfh"
+git config --global user.email "hjf_8086@163.com"
+提交代码
+git add .
+git commit -m "first commit"
