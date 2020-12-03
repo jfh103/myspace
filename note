@@ -31,3 +31,4 @@ git push origin version1.0
 git pull origin master
 查看本地文件
 ls -al　　
+
