@@ -6,3 +6,28 @@ git config --global user.email "hjf_8086@163.com"
 提交代码
 git add .
 git commit -m "first commit"
+查看修改情况
+git status
+查看具体修改
+git diff
+在提交之前(未使用add命令前），撤销修改
+git checkout
+git checkout ./path
+历史提交信息
+git log
+创建分支并切换到分支上
+git branch version1.0
+git checkout version1.0
+将分支修改的内容合并到主干上
+git checkout master
+git merge version1.0
+将远程代码下载到本地，粘贴操作shift + insert
+git clone https://github.com/example/test.git
+将本地代码上传到远程版本库
+git push origin master
+//或者将分支上传
+git push origin version1.0
+将远程版本库上获取最新修改的代码下载并合并到本地
+git pull origin master
+查看本地文件
+ls -al　　
